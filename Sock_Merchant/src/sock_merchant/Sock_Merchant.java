@@ -47,6 +47,7 @@ public class Sock_Merchant {
         } catch (Exception e) {
             System.out.println("Something went wrong!");
         }
+        input.close();
     }
 
 }
