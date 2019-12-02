@@ -19,6 +19,7 @@ class Counter {
 
 public class Sock_Merchant {
 
+    //If the new sock is a pair of an existing sock increases pair and return.
     static int addSock(HashMap<Integer, Counter> map, int pairs, Integer sock) {
         if (map.containsKey(sock)) {
             if (map.get(sock).isPairCounter()) {
